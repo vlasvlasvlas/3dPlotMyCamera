@@ -1,4 +1,4 @@
-# 3dPloyMyCamera: Proyecto de Visualización 3D de Imágenes de la Cámara
+# 3dPlotMyCamera: Proyecto de Visualización 3D de Imágenes de la Cámara
 
 Este proyecto utiliza Python y OpenCV para capturar imágenes de la cámara en tiempo real, aplicar transformaciones de imagen y visualizarlas en un gráfico de superficie 3D. El objetivo es proporcionar una herramienta visual para observar variaciones de brillo y contraste en imágenes en escala de grises capturadas en tiempo real.
 
