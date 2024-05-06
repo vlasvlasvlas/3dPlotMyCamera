@@ -1,7 +1,4 @@
 
-
-# Repositorio de Pruebas de Scripts
-
 # Script de Visualización 3D en Tiempo Real con OpenCV y Matplotlib
 
 Este script de Python utiliza OpenCV y Matplotlib para capturar imágenes en tiempo real desde una cámara, procesarlas y visualizarlas en un gráfico 3D en una ventana interactiva.
