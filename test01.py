@@ -48,7 +48,7 @@ if ret:
 
     # Plot de la superficie
     surf = ax.plot_surface(X, Y, Z, cmap='gray', edgecolor='none')
-    ax.view_init(90, -90)  # Vista cenital
+    ax.view_init(75, -75)  # Vista cenital
     ax.set_title('Gráfico de Superficie en Escala de Grises')
     ax.axis('off')  # Ocultamos los ejes para una vista más clara
     plt.show()

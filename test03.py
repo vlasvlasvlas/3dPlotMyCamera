@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import time
@@ -20,7 +19,7 @@ if not cap.isOpened():
 plt.ion()
 
 # Creamos una figura para Matplotlib, especificando un tamaño más grande
-fig = plt.figure(figsize=(12, 10))
+fig = plt.figure(figsize=(15, 15))
 ax = fig.add_subplot(111, projection='3d')
 
 # Variables para controlar los ángulos
@@ -46,14 +45,8 @@ try:
             brightened = np.clip(rotated + 10, 0, 255).astype(np.uint8)
 
             # Invertimos los valores de la imagen
-            inverted = 255 - brightened
-
-            # no elegir inverted! sino original
+            #inverted = 255 - brightened
             inverted = brightened
-
-            # Guardamos la imagen invertida en un DataFrame y lo exportamos a CSV sin encabezado
-            df_inverted = pd.DataFrame(inverted)
-            df_inverted.to_csv('imagen_invertida.csv', index=False, header=False)
 
             # Configuramos los datos para el gráfico de superficie
             X = np.arange(inverted.shape[1])
@@ -79,12 +72,11 @@ try:
             azimuth += azimuth_step
             
             # Invertimos la dirección si alcanzamos los límites
-            if elevation >= 135 or elevation <= 45:
+            if elevation >= 140 or elevation <= 40:
                 elevation_step *= -1
-            if azimuth >= -45 or azimuth <= -135:
+            if azimuth >= -40 or azimuth <= -140:
                 azimuth_step *= -1
 
-            ax.set_title('Gráfico de Superficie de Imagen Invertida')
             ax.axis('off')
             
             # Dibujamos y pausamos brevemente para la actualización
