@@ -1,5 +1,5 @@
 
-# 3dPlotMyCamera: 3d areachart de tu webcam!
+# 3dPlotMyCamera: render en tiempo real de area charts con imágenes de tu cámara web
 
 Este script de Python utiliza OpenCV y Matplotlib para capturar imágenes en tiempo real desde una cámara, procesarlas y visualizarlas en un gráfico 3D en una ventana interactiva.
 
