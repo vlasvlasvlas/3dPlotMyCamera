@@ -1,9 +1,9 @@
 
-# Script de Visualización 3D en Tiempo Real con OpenCV y Matplotlib
+# 3dPlotMyCamera: 3d areachart de tu webcam!
 
 Este script de Python utiliza OpenCV y Matplotlib para capturar imágenes en tiempo real desde una cámara, procesarlas y visualizarlas en un gráfico 3D en una ventana interactiva.
 
-Este repositorio contiene una serie de scripts de prueba diseñados para diversas aplicaciones y casos de uso. Cada script se encuentra en un archivo separado y puede ejecutarse de forma independiente.
+(Este repositorio contiene una serie de scripts de prueba diseñados para diversas aplicaciones y casos de uso. Cada script se encuentra en un archivo separado y puede ejecutarse de forma independiente).
 
 ## Requisitos
 
@@ -33,10 +33,8 @@ Para ejecutar los scripts en este repositorio, se recomienda seguir estos pasos:
 4. Instalar las dependencias de cada script desde su respectivo archivo `requirements.txt`:
 
    ```bash
-   pip install -r script_name/requirements.txt
+   pip install -r requirements.txt
    ```
-
-   Sustituye `script_name` por el nombre del directorio del script que estés utilizando.
 
 ## Ejecución
 
@@ -47,7 +45,6 @@ Una vez que el entorno virtual esté activado y las dependencias estén instalad
 3. Ajusta la cámara para obtener la mejor visualización.
 4. Observa la visualización 3D en tiempo real de los datos de la cámara.
 
-Sustituye `script_name` por el nombre del directorio y el archivo del script que desees ejecutar.
 
 ## Descripción
 
@@ -64,22 +61,23 @@ El script realiza los siguientes pasos:
     - Controla la elevación y el azimut del gráfico para una rotación suave.
     - Dibuja y actualiza la ventana de visualización.
 
+(El script puede detenerse presionando Ctrl+C.)
+
 
 ## Pruebas Anteriores
 
-Si hay pruebas anteriores en el repositorio, puedes ejecutarlas de manera similar, sustituyendo `script_name` por el nombre del directorio y el archivo de la prueba anterior.
+Si hay pruebas anteriores en el repositorio, puedes ejecutarlas de manera similar, sustituyendo `test04.py` por el archivo que quieras de las pruebas anteriores.
 
 ## Contribuciones
 
-Si deseas contribuir con nuevos scripts de prueba o mejorar los existentes, ¡siéntete libre de hacerlo! Abre un problema o envía una solicitud de extracción con tus cambios.
-
-## Licencia
-
-Este repositorio está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información.
-
+Si deseas contribuir con nuevos scripts de prueba o mejorar los existentes siéntete libre de hacerlo. Abre un issue o envía una solicitud de extracción con tus cambios.
 
 ## Notas
 
 - El script utiliza el modo interactivo de Matplotlib para actualizar la visualización en tiempo real.
 - Se supone que la cámara tiene una resolución de 640x480 píxeles.
 - El script puede detenerse presionando Ctrl+C.
+
+## Licencia
+
+Este repositorio está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información.
