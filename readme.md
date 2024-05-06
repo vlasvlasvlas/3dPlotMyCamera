@@ -80,9 +80,9 @@ Si deseas contribuir con nuevos scripts de prueba o mejorar los existentes sién
 - Se supone que la cámara tiene una resolución de 640x480 píxeles.
 - El script puede detenerse presionando Ctrl+C.
 
-## Extra Script! Pattern following based on HSV Valures
+## Extra Script! Seguimiento de patrones con OpenCV a través de parámetros dinámicos HSV
 
-Try test05.py for a opencv pattern following, based on hsv values params!
+Podes cargar test05.py y probá el seguimiento de objetos detectados a través de parámetros HSV!
 
 ![image](https://github.com/vlasvlasvlas/3dPlotMyCamera/assets/4071796/92b0082b-09e1-4fc4-a698-77dc2d661696)
 
