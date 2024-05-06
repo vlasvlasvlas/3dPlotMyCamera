@@ -13,7 +13,7 @@ if not cap.isOpened():
     exit()
 
 # Activamos el modo interactivo de matplotlib
-plt.ion()
+plt.ion() 
 
 # Creamos una figura para Matplotlib
 fig = plt.figure(figsize=(15, 15))
@@ -44,7 +44,7 @@ try:
             # Personalización del gráfico para eliminar fondo y etiquetas
 
             # Ajustamos la posición y el tamaño del gráfico dentro de la figura
-            ax.set_position([0, 0, 1, 1])            
+            ax.set_position([0, 0, 1, 1])
 
             ax.grid(False)  # Desactivamos la cuadrícula
             ax.set_xticks([])  # Eliminamos las marcas en x
